@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-25T10:25:37.492336Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Salt and pepper to taste",
+      "importance_rank": 1,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Carrot Salad",
+      "importance_rank": 2,
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Green Bean Casserole",
+      "importance_rank": 3,
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Salt and pepper to taste",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Salsa for serving",
+      "importance_rank": 5,
+      "page_number": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "o Dice tomatoes and cucumber, slice red onion.  o Blanch green beans until tender.",
+      "page_number": 11
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "  Preheat oven to 375°F (190°C).    In a skillet, cook ground beef, diced onion, and minced garlic until browned.",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "o Sauté diced bacon, onion, and minced garlic until crispy. \no Add cooked beans and cassava flour, stir to combine. \no Stir in chopped parsley and salt. \no Serve warm. \n \nFestival",
+      "page_number": 9
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "1 whole wheat tortilla \n• \n4 slices turkey breast \n• \n1/4 cup hummus \n• \n1/4 cup shredded carrots \n• \n1/4 cup baby spinach \nInstructions:",
+      "page_number": 15
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "1/4 cup cooked sausage or bacon \n• \n1/4 cup diced bell pepper \n• \n1/4 cup diced onion \n• \n1 large flour tortilla \n• \nSalsa for serving \nInstructions:",
+      "page_number": 4
+    }
+  ]
+}
