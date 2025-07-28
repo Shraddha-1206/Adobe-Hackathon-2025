@@ -1,7 +1,7 @@
 # Round 1B - Persona-Driven Document Intelligence
 
 ## Overview
-This is a **sample solution** for Challenge 1a of the Adobe India Hackathon 2025. The challenge requires implementing a PDF processing solution that extracts structured data from PDF documents and outputs JSON files. The solution must be containerized using Docker and meet specific performance and resource constraints.
+This is a **solution** for Challenge 1a of the Adobe India Hackathon 2025. This requires implementing a PDF processing solution that extracts structured data from PDF documents and outputs JSON files. The solution must be containerized using Docker and meet specific performance and resource constraints.
 
 ### Build Command
 ```bash
@@ -20,9 +20,9 @@ docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output/repoidentifier/:/
 - **Open Source**: All libraries, models, and tools must be open source
 - **Cross-Platform**: Test on both simple and complex PDFs
 
-## Sample Solution Structure
+## Solution Structure
 ```
-Round-1A/
+Round-1B/
 ├── sample_dataset/
 │   ├── input/            # Input PDF files
 │   └── ouput/          # JSON files provided as outputs.
@@ -34,8 +34,8 @@ Round-1A/
 
 ##  Implementation
 
-### Current Sample Solution
-The provided `process_pdfs.py` is a **basic sample** that demonstrates:
+### Current Solution
+The provided `main.py` is a **basic sample** that demonstrates:
 - PDF file scanning from input directory
 - Dummy JSON data generation
 - Output file creation in the specified format
