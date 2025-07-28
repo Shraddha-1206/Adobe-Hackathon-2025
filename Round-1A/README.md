@@ -1,7 +1,7 @@
 # Round1-1A: PDF Processing Solution
 
 ## Overview
-This is a **sample solution** for Challenge 1a of the Adobe India Hackathon 2025. The challenge requires implementing a PDF processing solution that extracts structured data from PDF documents and outputs JSON files. The solution must be containerized using Docker and meet specific performance and resource constraints.
+This is a **solution** for round 1a of the Adobe India Hackathon 2025. This requires implementing a PDF processing solution that extracts structured data from PDF documents and outputs JSON files. The solution must be containerized using Docker and meet specific performance and resource constraints.
 
 ### Build Command
 ```bash
